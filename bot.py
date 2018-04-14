@@ -40,4 +40,3 @@ def uprint(*objects, sep=' ', end='\n', file=sys.stdout):
 user = api.get_user('imaketweetbot')
 for friend in user.friends():
     print(friend.screen_name)
-
